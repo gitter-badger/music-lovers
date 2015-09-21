@@ -1,0 +1,7 @@
+# npm
+node-modules
+npm-debug.log
+
+# mac garbage
+.DS_Store
+**/.DS_Store
