@@ -3,11 +3,11 @@
 //
 
 var selected = {
-  init: {
+  init() {
 
   },
 
-  render: {
+  render() {
 
   }
 };

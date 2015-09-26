@@ -3,11 +3,11 @@
 //
 
 var list = {
-  init: {
+  init() {
 
   },
 
-  render: {
+  render() {
 
   }
 };

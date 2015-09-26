@@ -7,10 +7,9 @@ var minify  = require('gulp-minify-css');
 var sass    = require('gulp-sass');
 var bourbon = require('node-bourbon').includePaths;
 
-var devMode = true;
-
 gulp.task('scripts', function() {
   gulp.src([
+    'app/ajax.js',
     'app/data.js',
     'app/app.js',
     'app/selected.js',
@@ -19,7 +18,7 @@ gulp.task('scripts', function() {
     .pipe(plumber())
     .pipe(concat('main.js'))
     .pipe(babel())
-    .pipe(devMode ? uglify() : null)
+    // .pipe(uglify())
     .pipe(gulp.dest('js/'));
 });
 
