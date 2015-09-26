@@ -1,5 +1,10 @@
+#project
+js/
+css/
+fonts/
+
 # npm
-node-modules
+node_modules/
 npm-debug.log
 
 # mac garbage
